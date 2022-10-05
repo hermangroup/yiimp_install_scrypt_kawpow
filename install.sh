@@ -394,6 +394,15 @@
     sudo cp -a config.sample/. /var/stratum/config
     sudo cp -r stratum /var/stratum
     sudo cp -r run.sh /var/stratum
+	sudo cp -r kawpow.cpp /var/stratum
+	sudo cp -r kawpow.h /var/stratum
+	sudo cp -r run-kawpow.sh /var/stratum
+	sudo mkdir -p /var/stratum/satoshi
+	cd $HOME/yiimp/stratum/satoshi
+	sudo cp -r satoshi /var/stratum/satoshi
+	sudo mkdir -p /var/stratum/ethash
+	cd $HOME/yiimp/stratum/ethash
+	sudo cp -r ethash /var/stratum/ethash
     cd $HOME/yiimp
     sudo cp -r $HOME/yiimp/bin/. /bin/
     sudo cp -r $HOME/yiimp/blocknotify/blocknotify /usr/bin/
