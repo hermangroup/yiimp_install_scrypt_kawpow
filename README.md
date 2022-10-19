@@ -18,15 +18,15 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
 
 Connect on your VPS =>
-- apt update
-- apt upgrade
-- reboot
-- adduser pool (pool it's just an example...)
-- adduser pool sudo
+- sudo apt update
+- sudo apt upgrade
+- sudo reboot
+- sudo adduser pool (pool it's just an example...)
+- sudo adduser pool sudo
 - su - pool
 - sudo apt -y install git
 - git clone https://github.com/hermangroup/yiimp_install_scrypt_kawpow.git
-- cd yiimp_install_scrypt/
+- cd yiimp_install_scrypt_kawpow/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
 
