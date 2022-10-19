@@ -1,8 +1,8 @@
-# Yiimp_install_scrypt v0.2 (update Avril, 2020)
+# Yiimp_install_scrypt v0.2 (update 2022)
 
-Site : https://www.xavatar.com
+Site : https://www.
 
-Discord : https://discord.gg/zcCXjkQ
+Discord : https://
 
 TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
 
@@ -25,7 +25,7 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/xavatar/yiimp_install_scrypt.git
+- git clone https://github.com/barrystyle/yiimp-kawpow.git
 - cd yiimp_install_scrypt/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
@@ -72,9 +72,9 @@ While I did add some server security to the script, it is every server owners re
 
 There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/zcCXjkQ
+If you need further assistance we have a small but growing discord channel at https://discord
 
 If this helped you or you feel giving please donate : 
-- BTC Donation : 1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7
-- BCH Donation : 1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz
-- ETH Donation : 0xc23E6902fF8Cd8878EDADE18Dc49B3505395F0a1
+- BTC Donation : 
+- BCH Donation : 
+- ETH Donation : 
