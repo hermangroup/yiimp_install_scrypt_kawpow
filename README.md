@@ -1,15 +1,8 @@
 # Yiimp_install_scrypt v0.2 (update 2022)
 
-Site : https://www.
+Site : http://peopleland.net/en/
 
 Discord : https://
-
-TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
-
-Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
-
-Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
-
 
 ***********************************
 
@@ -36,9 +29,10 @@ Finish !
 
 If you are issue after installation (nginx,mariadb... not found), use this script : bash install-debug.sh (watch the log during installation)
 
-###### :bangbang: **Kudaraidee Install Script :**
-- Instead Tpruvot's Yiimp, you can use the Kudaraidee's Repo Yiimp : git clone -b Kudaraidee https://github.com/Kudaraidee/yiimp.git
-- It's an updated Yiimp, with more algo, some fix....
+If u have white page blank on site check php7.3-memcache | php7.3-memcached | php7.3-fpm , try just restart them first... 
+ - or -
+sudo apt-get install -y php7.3-memcache
+sudo systemctl restart php7.3-fpm.service
 
 ###### :bangbang: **YOU MUST UPDATE THE FOLLOWING FILES :**
 - **/var/web/serverconfig.php :** update this file to include your public ip (line = YAAMP_ADMIN_IP) to access the admin panel (Put your PERSONNAL IP, NOT IP of your VPS). update with public keys from exchanges. update with other information specific to your server..
@@ -75,6 +69,18 @@ There will be several wallets already in yiimp. These have nothing to do with th
 If you need further assistance we have a small but growing discord channel at https://discord
 
 If this helped you or you feel giving please donate : 
-- BTC Donation : 
-- BCH Donation : 
-- ETH Donation : 
+- BTC Donation : bc1q06g0xjfmh6p07crxgtqrkmp7pnsjjav6pwtdse
+- BCH Donation : qz2hglx0x08xv805y5thkn3exyleaxcahur9cwwq6r
+- BNB Donation : bnb14evzrevllcyghlmhqxr7gc4jm8ht48m8ssqj58
+- ETH Donation : 0x8C7A48c41f8722885f852E8D150489bCeAfa1d09
+- RVN Donation : RCys47j6GxLUHAJNFGHSqBkwSGxg5MXyan
+
+***********************************
+
+TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
+
+Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
+
+Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
+
+
